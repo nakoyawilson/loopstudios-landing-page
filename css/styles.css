@@ -350,7 +350,7 @@ button {
   }
 
   .header-section {
-    margin-top: 2.5rem;
+    margin-top: 0;
   }
 
   .nav-bar {
@@ -358,20 +358,19 @@ button {
   }
 
   .navigation {
-    display: none;
     position: fixed;
     top: 0;
     left: 0;
-    display: block;
     width: 100vw;
     height: 100vh;
     z-index: 100;
     background-color: var(--black);
     transform: translateX(100%);
-    transition: transform 500ms ease-in-out;
+    transition: 500ms ease-in-out;
   }
 
-  .mobile-menu {
+  .header-logo.mobile-menu,
+  .mobile.mobile-menu {
     position: fixed;
   }
 
@@ -386,7 +385,15 @@ button {
   .mobile {
     display: block;
     top: 2.9rem;
+  }
+
+  .mobile.mobile-menu {
     right: 2rem;
+  }
+
+  .menu-button {
+    position: relative;
+    bottom: 0.2rem;
   }
 
   .mobile:hover button {
@@ -429,7 +436,8 @@ button {
   }
 
   .interactive {
-    padding-top: 6rem;
+    margin-top: 15.75rem;
+    /* padding-top: 6rem; */
   }
 
   .interactive-text {
