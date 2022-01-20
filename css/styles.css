@@ -115,6 +115,7 @@ button {
   font-family: var(--font-secondary);
   font-weight: 300;
   font-size: 3rem;
+  line-height: 1;
 }
 
 .interactive {
@@ -303,7 +304,7 @@ button {
 }
 
 .copyright {
-  color: var(--dark-gray);
+  color: var(--gray);
 }
 
 .attribution {
@@ -420,8 +421,6 @@ button {
     padding: 1.5rem 1.75rem;
     width: min(100%, 20.5rem);
     margin: 9.5rem 0 11.75rem;
-    line-height: 1;
-    letter-spacing: 0.015em;
   }
 
   .section-heading {
@@ -466,6 +465,7 @@ button {
     bottom: 1.5rem;
     left: 1.5rem;
     width: 8rem;
+    line-height: 1.2;
   }
 
   .deep-earth {
