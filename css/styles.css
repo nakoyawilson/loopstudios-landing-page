@@ -392,7 +392,7 @@ button {
   }
 
   .mobile.mobile-menu {
-    right: 2rem;
+    right: 7%;
   }
 
   .menu-button {
@@ -424,6 +424,11 @@ button {
     padding: 1.5rem 1.75rem;
     width: min(100%, 20.5rem);
     margin: 9.5rem 0 11.75rem;
+  }
+
+  .title.mobile-title {
+    position: relative;
+    top: 2rem;
   }
 
   .section-heading {
