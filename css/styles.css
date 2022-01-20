@@ -358,6 +358,7 @@ button {
   }
 
   .navigation {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -505,5 +506,15 @@ button {
 
   .section-heading {
     font-size: 1.6rem;
+  }
+
+  .header-logo {
+    width: 10rem;
+    height: auto;
+  }
+
+  .header-logo .logo {
+    width: 100%;
+    height: auto;
   }
 }
