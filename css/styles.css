@@ -360,6 +360,7 @@ button {
   }
 
   .navigation {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -378,6 +379,7 @@ button {
 
   .navigation.open {
     transform: translateX(0);
+    transition: 500ms ease-in-out;
   }
 
   .header-logo {
