@@ -262,14 +262,21 @@ button {
   cursor: pointer;
 }
 
-.social-icon-container:hover::after {
+.social-icon-container::after {
   content: "";
-  width: 1.5rem;
+  width: 0;
   height: 2px;
   border-top: 2px solid var(--white);
   position: absolute;
-  left: 1px;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
   bottom: -0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon-container:hover::after {
+  width: 1.5rem;
 }
 
 .footer-links {
