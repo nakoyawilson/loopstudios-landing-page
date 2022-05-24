@@ -291,10 +291,10 @@ button {
   text-decoration: none;
 }
 
-.footer-link a:hover::after,
-.nav-link a:hover::after {
+.footer-link a::after,
+.nav-link a::after {
   content: "";
-  width: 1.5rem;
+  width: 0;
   height: 2px;
   border-top: 2px solid var(--white);
   position: absolute;
@@ -302,6 +302,12 @@ button {
   right: 0;
   margin-inline: auto;
   bottom: -0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-link a:hover::after,
+.nav-link a:hover::after {
+  width: 1.5rem;
 }
 
 .copyright {
